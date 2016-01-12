@@ -167,5 +167,72 @@ footer nav li a:hover{
   /* MOBILE (SMALL) */
 
   @media screen and (max-width:768px){
+    .col-quarter{
+      width:100%;
+      box-sizing: border-box;
+      padding: 25px;
+    }
 
+    .col-half{
+      width:100%;
+    }
+
+    .content{
+      padding: 0 25px;
+    }
+
+    .following{
+      display: inline-block;
+      width:50%;
+      font-size: 150%
+    }
+
+    .followers{
+      display: inline-block;
+      width: 50%;
+      font-size: 150%
+    }
+
+    .actions{
+      display:none;
+    }
+
+    .message{
+      font-size: 200%;
+    }
+
+    header .text{
+      display: none;
+    }
+
+    .profile img{
+      width: 100%;
+    }
+
+    .profile .image{
+      width:35%;
+      float: left;
+      box-sizing: border-box;
+    }
+
+    .profile .bio{
+      width:60%;
+      float: left;
+      margin: 0 0 0 20px;
+      padding-bottom: 0;
+      box-sizing: border-box;
+    }
+
+    .joined{
+      display:none;
+    }
+
+    .suggestions .list{
+      overflow: auto;
+    }
+
+    .user{
+      float: left;
+      width: 33.33%;
+    }
   }
