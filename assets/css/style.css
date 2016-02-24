@@ -167,20 +167,59 @@ footer nav li a:hover{
   /* MOBILE (SMALL) */
 
   @media screen and (max-width:768px){
-    .col-quarter{
-      width:100%;
+
+    header{
+      padding: 10px 15px;
+    }
+    header .text{
+      display:none;
+    }
+    main{
+      padding:10px 15px;
+    }
+    .profile{
+      width: 100%;
+      padding: 0;
+    }
+    .profile .image{
+      width:48%;
+      float: left;
       box-sizing: border-box;
-      padding: 25px;
     }
-
-    .col-half{
-      width:100%;
+    .profile .image img{
+      max-width: 100%;
     }
+    .profile .bio{
+      width:48%;
+      float: right;
+      box-sizing: border-box;
+      margin-top: 0;
+      padding:10px;
+    }
+    .profile .bio h1{
+      margin-top: 0;
+    }
+    .profile .bio p{
 
+    }
+    .profile .bio .joined{
+      display:none;
+    }
     .content{
-      padding: 0 25px;
+      width:100%;
+      padding: 0;
     }
-
+    .content .stats{
+      margin-top: 25px;
+    }
+    .content .tweets .actions{
+      display:none;
+    }
+    .suggestions{
+      padding: 0;
+      width: 100%;
+      margin-top: 25px;
+    }
     .following{
       display: inline-block;
       width:50%;
@@ -192,41 +231,9 @@ footer nav li a:hover{
       width: 50%;
       font-size: 150%
     }
-
-    .actions{
-      display:none;
-    }
-
     .message{
       font-size: 200%;
     }
-
-    header .text{
-      display: none;
-    }
-
-    .profile img{
-      width: 100%;
-    }
-
-    .profile .image{
-      width:35%;
-      float: left;
-      box-sizing: border-box;
-    }
-
-    .profile .bio{
-      width:60%;
-      float: left;
-      margin: 0 0 0 20px;
-      padding-bottom: 0;
-      box-sizing: border-box;
-    }
-
-    .joined{
-      display:none;
-    }
-
     .suggestions .list{
       overflow: auto;
     }
